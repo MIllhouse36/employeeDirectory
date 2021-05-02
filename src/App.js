@@ -9,6 +9,7 @@ function App() {
     <Router>
       <div>
         <Wrapper>
+        <Route exact path="/" component={Discover} />
         <Route exact path="/employeeDirectory3" component={Discover} />
         </Wrapper>
         <Footer />
