@@ -1,71 +1,47 @@
-# Getting Started with Create React App
+# Employee_directory
+![Employee_directory](https://user-images.githubusercontent.com/37388720/120012689-d3e24180-bfad-11eb-9e76-bd4686589e36.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+## Description
+ This site is a mock up of employee directory used to catalog employee data as well as allow for immediate access to data by a specific set of parameters. 
 
-### `npm start`
+## Usage 
+ Navigate to this [site](https://millhouse36.github.io/employeeDirectory3/), you will then be present with a directory of 10 employees. Typing in the search bar the first or last initial of an employee your seaching for will filter your selection to only show employees with that chosen intial. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Contributing to Employee_directory 
+To contribute to Budget-tracker , follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Fork this repository.
+2. Create a branch: `git checkout -b # Employee_directory  `.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin # Employee_directory /<location>`
+5. Create the pull request.
 
-### `npm test`
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installations
+Make sure you download and install:
+ * [Node.js](https://nodejs.org/en/download/)
 
-### `npm run build`
+and from the command line all you will need to do is type 
+```
+npm install
+```
+and your off to the races with your development environment for this project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies
+react, react-router-dom, bootstrap, axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project status
+Development of this projects has been halted with plans to incorporate database for storing employees and employee data. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Host
+https://millhouse36.github.io/employeeDirectory3/
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# employeeDirectory3
+## Author and Contact
+If you have and questions contact me @
+[Kevin Millhouse](https://github.com/MIllhouse36)
+or [Email](https://millhousekevin@gmail.com)
