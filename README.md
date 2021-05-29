@@ -8,7 +8,7 @@
  This site is a mock up of employee directory used to catalog employee data as well as allow for immediate access to data by a specific set of parameters. 
 
 ## Usage 
- Navigate to this [site](https://millhouse36.github.io/employeeDirectory3/), you will then be present with a directory of 10 employees. Typing in the search bar the first or last initial of an employee your seaching for will filter your selection to only show employees with that chosen intial. 
+ Navigate to this [site](https://millhouse36.github.io/employeeDirectory/), you will then be present with a directory of 10 employees. Typing in the search bar the first or last initial of an employee your seaching for will filter your selection to only show employees with that chosen intial. 
 
 ## Contributing to Employee_directory 
 To contribute to Budget-tracker , follow these steps:
@@ -35,10 +35,10 @@ and your off to the races with your development environment for this project.
 react, react-router-dom, bootstrap, axios
 
 ## Project status
-Development of this projects has been halted with plans to incorporate database for storing employees and employee data. 
+Development of this projects has been halted with plans to incorporate database for storing employees and employee data.  
 
 ## Host
-https://millhouse36.github.io/employeeDirectory3/
+https://millhouse36.github.io/employeeDirectory/
 
 
 ## Author and Contact
