@@ -28,9 +28,9 @@ class Discover extends Component {
     return (
       <div>
         <h1 className="text-center">Employee Directory</h1>
-        <h3 className="text-center">
+        {/* <h3 className="text-center">
           Click on carrots to filter by heading or use the search to narrow your!
-        </h3>
+        </h3> */}
         <form className="search">
       <div className="form-group">
         <label htmlFor="employee">Employee Name:</label>
