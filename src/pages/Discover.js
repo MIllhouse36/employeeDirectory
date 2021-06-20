@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import API from "../utils/API";
 import Card from "../components/Card";
 
-
-
 class Discover extends Component {
   state = {
     results:[],
@@ -27,10 +25,7 @@ class Discover extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">Employee Directory</h1>
-        {/* <h3 className="text-center">
-          Click on carrots to filter by heading or use the search to narrow your!
-        </h3> */}
+      
         <form className="search">
       <div className="form-group">
         <label htmlFor="employee">Employee Name:</label>
