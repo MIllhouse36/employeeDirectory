@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from "../utils/API";
-import Card from "../components/Card";
+import Card from "./Card";
 
 class Discover extends Component {
   state = {

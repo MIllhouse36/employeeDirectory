@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Discover from "./pages/Discover";
+import Discover from "./components/Discover";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
