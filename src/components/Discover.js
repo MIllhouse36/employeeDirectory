@@ -8,13 +8,10 @@ class Discover extends Component {
     search:""
   };
 
-  componentDidMount() {
-    this.loadsEmployee();
-  }
-
-  loadsEmployee = () => {
-    API.getUsers()
-      .then(res => this.setState({results: res.data.results}))
+  componentDidMount = () => {
+    API.getUsers().then(res => 
+      this.setState({
+        results: res.data.results}))
       .catch(err => console.log(err));
   };
   
