@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from "../utils/API";
-import Card from "./Card";
+import Table from "./Table";
 
 class Discover extends Component {
   state = {
@@ -36,7 +36,7 @@ class Discover extends Component {
         />
       </div>
     </form>
-        <Card results={this.state.results} search={this.state.search}/>
+        <Table results={this.state.results} search={this.state.search}/>
       </div>
     );
   }
