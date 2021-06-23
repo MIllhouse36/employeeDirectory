@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Card(props) {
+function Table(props) {
   //add state.results 
   // on click for headings 
   // sort by something simple like dob, or name
@@ -35,4 +35,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default Table;

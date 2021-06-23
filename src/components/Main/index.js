@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import API from "../utils/API";
-import Table from "./Table";
+import API from "../../utils/API";
+import Table from "../Table";
 
 class Discover extends Component {
   state = {
