@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+const Header = ()=> {
   return (
     <div>
   <h1 className="text-center">Employee Directory</h1>
