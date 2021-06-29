@@ -3,7 +3,7 @@ import React from "react";
 
 function SearchBox({ handleSearchChange }) {
   return (
-    <div className="searchbox">
+    <div className="searchbox text-center mx-auto">
       <form className="form-inline">
         <input
           className="form-control"
