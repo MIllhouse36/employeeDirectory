@@ -1,37 +1,36 @@
 import React from "react";
-import "./style.css";
+import Body from "../Body/index";
+import "./style.css"
 
-function Table(props) {
-  //add state.results 
-  // on click for headings 
-  // sort by something simple like dob, or name
-  // 
-  const searchedEmployee = props.results.filter(employee => {
-    let fullname = employee.name.first + " " + employee.name.last
-    return fullname.toUpperCase().includes(props.search.toUpperCase())});
+function Table({ headings, users, handleSort }) {
   return (
-
-    <table className="list-group">
-      {searchedEmployee.map(result => (
-        //use cols 
-        <tr className="list-group-item" key={result.id}>
+    <div className="datatable mt-5">
+      <table
+        id="table"
+        className="table table-striped table-hover table-condensed"
+      >
+        <thead>
           <tr>
-          <th>image</th>
-          <th>name</th>
-          <th>phone</th>
-          <th>email</th>
-          <th>DOB</th>
+            {headings.map(({ name, width }) => {
+              return (
+                <th
+                  className="col"
+                  key={name}
+                  style={{ width }}
+                  onClick={() => {
+                    handleSort(name.toLowerCase());
+                  }}
+                >
+                  {name}
+                  <span className="pointer"></span>
+                </th>
+              );
+            })}
           </tr>
-          <tr>
-          <td><img alt={result.name} className="img-fluid" src={result.picture.thumbnail} /></td>
-          <td>{result.name.first}</td><td>{result.name.last}</td>
-          <td>{result.phone}</td>
-          <td>{result.email}</td>
-          <td>{result.dob.date.substring(0,10)}</td>
-          </tr>
-        </tr>
-      ))}
-    </table>
+        </thead>
+        <Body users={users} />
+      </table>
+    </div>
   );
 }
 

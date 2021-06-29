@@ -1,8 +1,9 @@
 import React from "react";
-import Main from "./components/Main";
+import Main from "./components/Main/index";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
+// import "./App.css"
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <Wrapper>
         <Header/>
         <Main/>
-        </Wrapper>
         <Footer />
+        </Wrapper>
       </div>
   );
 }
