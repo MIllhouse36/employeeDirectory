@@ -4,10 +4,10 @@ import "./style.css"
 
 function Table({ headings, users, handleSort }) {
   return (
-    <div className="datatable mt-5">
+    <div className="table mt-5">
       <table
         id="table"
-        className="table table-striped table-hover table-condensed"
+        className="table table-bordered table-dark table-hover table-condensed"
       >
         <thead>
           <tr>
