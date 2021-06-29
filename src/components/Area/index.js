@@ -7,7 +7,7 @@ import API from "../../utils/API";
 const Area = () => {
 
   let [users, setUsers] = useState([{}]);
-  let [order, setOrder] = useState("descend");
+  let [orderAscend, setOrderAscend] = useState(true);
   let [filteredUsers, setFilteredUsers] = useState([{}]);
 
   
@@ -21,14 +21,10 @@ const Area = () => {
   
   let handleSort = (heading) => {
     
-    if (order === "descend") {
-      setOrder((order = "ascend"));
-    } else {
-      setOrder((order = "descend"));
-    }
+    setOrderAscend(order => !order)
     
     const compareFnc = (a, b) => {
-      if (order === "ascend") {
+      if (orderAscend) {
         // account for missing values
         if (a[heading] === undefined) {
           return 1;
