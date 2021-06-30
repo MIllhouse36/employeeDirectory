@@ -52,8 +52,8 @@ const Area = () => {
         }
       }
     };
-    
-    setFilteredUsers(filteredUsers.sort(compareFnc))
+    setFilteredUsers(filteredUsers => filteredUsers.slice().sort(compareFnc))
+    // setFilteredUsers(filteredUsers.sort(compareFnc))
     // setFilteredUsers({ filteredUsers: sortedUsers });
   };
   
